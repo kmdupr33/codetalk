@@ -135,6 +135,12 @@ p {
 }
 
 /* line 67, ../sass/screen.scss */
+pre {
+  overflow: auto;
+  line-height: 1.25;
+}
+
+/* line 72, ../sass/screen.scss */
 .code-prose .left {
   flex-grow: 1;
   font-size: 20px;

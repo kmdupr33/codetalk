@@ -64,6 +64,11 @@ p {
   flex: 1;
 }
 
+pre {
+  overflow: auto;
+  line-height: 1.25;
+}
+
 .code-prose .left {
   flex-grow: 1;
   font-size: 20px;
