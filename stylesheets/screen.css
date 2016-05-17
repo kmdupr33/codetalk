@@ -76,9 +76,10 @@ body {
 h1, h2, p {
   font-family: 'Roboto';
   margin-bottom: 10px;
+  line-height: 1.5;
 }
 
-/* line 17, ../sass/screen.scss */
+/* line 18, ../sass/screen.scss */
 button {
   margin-top: 10px;
   font-family: 'Roboto';
@@ -88,12 +89,12 @@ button {
   border-color: black;
 }
 
-/* line 26, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 button:hover {
   background-color: #f2f2f2;
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 div {
   height: 100vh;
   display: flex;
@@ -102,18 +103,18 @@ div {
   flex-flow: column;
 }
 
-/* line 38, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 div h1 {
   font-size: 50px;
   font-weight: bold;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 div h2 {
   font-size: 36px;
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 div p {
   font-size: 20px;
 }
