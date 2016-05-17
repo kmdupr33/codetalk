@@ -157,7 +157,7 @@ pre mark {
   opacity: 1;
   font-weight: bold;
   background-color: transparent;
-  animation: 1s ease-in .75s pulse;
+  animation: 1s ease-in .25s pulse;
 }
 
 /* line 101, ../sass/screen.scss */

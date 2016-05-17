@@ -18,7 +18,7 @@ button {
   border-radius: 10px;
   background-color: white;
   border-color: black;
-  border-width: thin; 
+  border-width: thin;
 }
 
 button:hover {
@@ -88,7 +88,7 @@ pre mark {
   opacity: 1;
   font-weight: bold;
   background-color: rgba(0, 0, 0, 0);
-  animation: 1s ease-in .75s pulse;
+  animation: 1s ease-in .25s pulse;
 }
 
 @mixin vertical-center {
