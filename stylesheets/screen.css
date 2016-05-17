@@ -68,18 +68,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 8, ../sass/screen.scss */
-body {
-  padding: 0 150px 0 150px;
-}
-
-/* line 12, ../sass/screen.scss */
 h1, h2, p {
   font-family: 'Roboto';
   margin-bottom: 10px;
   line-height: 1.5;
 }
 
-/* line 18, ../sass/screen.scss */
+/* line 14, ../sass/screen.scss */
 button {
   margin-top: 10px;
   font-family: 'Roboto';
@@ -89,32 +84,59 @@ button {
   border-color: black;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 23, ../sass/screen.scss */
 button:hover {
   background-color: #f2f2f2;
 }
 
-/* line 31, ../sass/screen.scss */
-div {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-}
-
-/* line 39, ../sass/screen.scss */
-div h1 {
+/* line 27, ../sass/screen.scss */
+h1 {
   font-size: 50px;
   font-weight: bold;
 }
 
-/* line 44, ../sass/screen.scss */
-div h2 {
+/* line 32, ../sass/screen.scss */
+h2 {
   font-size: 36px;
 }
 
-/* line 48, ../sass/screen.scss */
-div p {
+/* line 36, ../sass/screen.scss */
+p {
   font-size: 20px;
+}
+
+/* line 40, ../sass/screen.scss */
+#container {
+  height: 100vh;
+}
+
+/* line 50, ../sass/screen.scss */
+.prose {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 150px 0 150px;
+  align-items: center;
+  flex-flow: column;
+}
+
+/* line 57, ../sass/screen.scss */
+.code-prose {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+}
+
+/* line 63, ../sass/screen.scss */
+.code-prose .right {
+  flex: 1;
+}
+
+/* line 67, ../sass/screen.scss */
+.code-prose .left {
+  flex-grow: 1;
+  font-size: 20px;
+  max-width: 50%;
 }
