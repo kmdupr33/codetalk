@@ -56,12 +56,8 @@ p {
 
 .code-prose {
   @include content;
-  align-items: center;
+  align-items: stretch;
   flex-flow: row;
-}
-
-.code-prose .right {
-  flex: 1;
 }
 
 pre {
@@ -69,8 +65,22 @@ pre {
   line-height: 1.25;
 }
 
+@mixin vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.code-prose .right {
+  flex: 1;
+  @include vertical-center;
+}
+
 .code-prose .left {
   flex-grow: 1;
   font-size: 20px;
   max-width: 50%;
+  background-color: lighten(#eee, 4);
+  @include vertical-center;
 }

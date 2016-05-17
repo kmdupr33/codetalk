@@ -125,24 +125,33 @@ p {
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   flex-flow: row;
 }
 
 /* line 63, ../sass/screen.scss */
-.code-prose .right {
-  flex: 1;
-}
-
-/* line 67, ../sass/screen.scss */
 pre {
   overflow: auto;
   line-height: 1.25;
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
+.code-prose .right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+/* line 80, ../sass/screen.scss */
 .code-prose .left {
   flex-grow: 1;
   font-size: 20px;
   max-width: 50%;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
 }
