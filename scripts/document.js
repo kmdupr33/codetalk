@@ -1,5 +1,5 @@
 (function () {
-    var currentItemIndex = 0;
+    var currentItemIndex = -1;
     window.addEventListener("keydown", function (event) {
         if (event.keyCode == 32) {
             currentItemIndex++;

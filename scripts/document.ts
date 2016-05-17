@@ -4,7 +4,7 @@ interface Element {
 }
 
 (function() {
-  let currentItemIndex = 0;
+  let currentItemIndex = -1;
   window.addEventListener("keydown", (event: KeyboardEvent) => {
     if (event.keyCode == 32) {
       currentItemIndex++;
