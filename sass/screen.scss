@@ -9,30 +9,9 @@ body {
   padding: 0 150px 0 150px;
 }
 
-div {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-}
-
 h1, h2, p {
   font-family: 'Roboto';
   margin-bottom: 10px;
-}
-
-div h1 {
-  font-size: 50px;
-  font-weight: bold;
-}
-
-div h2 {
-  font-size: 36px;
-}
-
-div p {
-  font-size: 20px;
 }
 
 button {
@@ -46,4 +25,25 @@ button {
 
 button:hover {
   background-color: darken(white, 5);
+}
+
+div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+div h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+div h2 {
+  font-size: 36px;
+}
+
+div p {
+  font-size: 20px;
 }
