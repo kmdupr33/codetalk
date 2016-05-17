@@ -73,7 +73,7 @@ body {
 }
 
 /* line 12, ../sass/screen.scss */
-header {
+div {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -88,17 +88,32 @@ h1, h2, p {
 }
 
 /* line 25, ../sass/screen.scss */
-header h1 {
+div h1 {
   font-size: 50px;
   font-weight: bold;
 }
 
 /* line 30, ../sass/screen.scss */
-header h2 {
+div h2 {
   font-size: 36px;
 }
 
 /* line 34, ../sass/screen.scss */
-header p {
+div p {
   font-size: 20px;
+}
+
+/* line 38, ../sass/screen.scss */
+button {
+  margin-top: 10px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: white;
+  border-color: black;
+}
+
+/* line 47, ../sass/screen.scss */
+button:hover {
+  background-color: #f2f2f2;
 }
