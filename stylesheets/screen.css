@@ -137,17 +137,29 @@ pre {
 
 /* line 68, ../sass/screen.scss */
 span.demph {
-  opacity: .5;
+  opacity: .3;
 }
 
-/* line 72, ../sass/screen.scss */
+@keyframes pulse {
+  0% {
+    font-size: 100%;
+  }
+  50% {
+    font-size: 135%;
+  }
+  100% {
+    font-size: 100%;
+  }
+}
+/* line 86, ../sass/screen.scss */
 pre mark {
   opacity: 1;
   font-weight: bold;
   background-color: transparent;
+  animation: 1s ease-in .75s pulse;
 }
 
-/* line 85, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 .code-prose .right {
   display: flex;
   align-items: center;
@@ -157,7 +169,7 @@ pre mark {
   padding: 0 10px 0 10px;
 }
 
-/* line 91, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 .code-prose .left {
   display: flex;
   align-items: center;
