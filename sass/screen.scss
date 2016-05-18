@@ -4,67 +4,10 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "base";
+@import "layout";
+@import "module";
 
-h1, h2, p {
-  font-family: 'Roboto';
-  margin-bottom: 10px;
-  line-height: 1.5;
-}
-
-button {
-  margin-top: 10px;
-  font-family: 'Roboto';
-  font-size: 20px;
-  border-radius: 10px;
-  background-color: white;
-  border-color: black;
-  border-width: thin;
-}
-
-button:hover {
-  background-color: darken(white, 5);
-}
-
-h1 {
-  font-size: 50px;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: 36px;
-}
-
-p {
-  font-size: 20px;
-}
-
-#container {
-  height: 100vh;
-}
-
-@mixin content {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.prose {
-  @include content;
-  padding: 0 150px 0 150px;
-  align-items: center;
-  flex-flow: column;
-}
-
-.code-prose {
-  @include content;
-  align-items: stretch;
-  flex-flow: row;
-}
-
-pre {
-  overflow: auto;
-  line-height: 1.25;
-}
 
 span.demph {
   opacity: .3;
@@ -89,27 +32,4 @@ pre mark {
   font-weight: bold;
   background-color: rgba(0, 0, 0, 0);
   animation: 1s ease-in .25s pulse;
-}
-
-@mixin vertical-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column;
-}
-
-.code-prose .right {
-  @include vertical-center;
-  flex: 1;
-  padding: 0 10px 0 10px;
-}
-
-.code-prose .left {
-  @include vertical-center;
-  flex-grow: 1;
-  font-size: 20px;
-  max-width: 50%;
-  padding: 0 10px, 0, 10px;
-  background-color: lighten(#eee, 4);
-  padding: 0 10px 0 10px;
 }

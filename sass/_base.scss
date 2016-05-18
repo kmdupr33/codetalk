@@ -1,0 +1,39 @@
+// Base css as described in smacss
+
+h1, h2, p {
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+button {
+  margin-top: 10px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: white;
+  border-color: black;
+  border-width: thin;
+}
+
+button:hover {
+  background-color: darken(white, 5);
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 20px;
+}
+
+pre {
+  overflow: auto;
+  line-height: 1.25;
+}
