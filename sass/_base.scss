@@ -1,6 +1,6 @@
 // Base css as described in smacss
 
-h1, h2, p {
+h1, h2, h3, p {
   font-family: 'Roboto';
   margin-bottom: 10px;
   line-height: 1.5;
@@ -27,6 +27,10 @@ h1 {
 
 h2 {
   font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
 }
 
 p {

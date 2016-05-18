@@ -68,7 +68,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 3, ../sass/_base.scss */
-h1, h2, p {
+h1, h2, h3, p {
   font-family: 'Roboto';
   margin-bottom: 10px;
   line-height: 1.5;
@@ -102,11 +102,16 @@ h2 {
 }
 
 /* line 32, ../sass/_base.scss */
+h3 {
+  font-size: 30px;
+}
+
+/* line 36, ../sass/_base.scss */
 p {
   font-size: 20px;
 }
 
-/* line 36, ../sass/_base.scss */
+/* line 40, ../sass/_base.scss */
 pre {
   overflow: auto;
   line-height: 1.25;
